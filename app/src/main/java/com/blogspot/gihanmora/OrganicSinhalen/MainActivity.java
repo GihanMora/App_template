@@ -289,6 +289,46 @@ public class MainActivity extends AppCompatActivity {
                     }
                     Tab8 tb8 =new Tab8();
                     return tb8;
+                case 8:
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    } else {
+                        Log.d("TAG", "The interstitial wasn't loaded yet.");
+                    }
+                    Tab9 tb9 =new Tab9();
+                    return tb9;
+                case 9:
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    } else {
+                        Log.d("TAG", "The interstitial wasn't loaded yet.");
+                    }
+                    Tab10 tb10 =new Tab10();
+                    return tb10;
+                case 10:
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    } else {
+                        Log.d("TAG", "The interstitial wasn't loaded yet.");
+                    }
+                    Tab11 tb11 =new Tab11();
+                    return tb11;
+                case 11:
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    } else {
+                        Log.d("TAG", "The interstitial wasn't loaded yet.");
+                    }
+                    Tab12 tb12 =new Tab12();
+                    return tb12;
+                case 12:
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    } else {
+                        Log.d("TAG", "The interstitial wasn't loaded yet.");
+                    }
+                    Tab13 tb13 =new Tab13();
+                    return tb13;
 
                 default:
                     return null;
@@ -299,30 +339,38 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 8;
+            return 13;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-
-                    return "මොකක්ද C++ කියන්නෙ?";
+                    return "මුල් පිටුව";
                 case 1:
-                    return "මූලික කරුණු";
+                    return "ඇල්කීන";
                 case 2:
-                    return "C++ වල Variables";
+                    return "ඇල්කයින";
                 case 3:
-                    return "C++ වල Operators";
+                    return "ඇල්කිල් හේලයිඩ";
                 case 4:
-                    return "Conditional Statements";
+                    return "බෙන්සීන්";
                 case 5:
-                    return "Loops";
+                    return "ඇල්කොහොල";
                 case 6:
-                    return "Functions";
+                    return "ෆීනෝල";
                 case 7:
-                    return "Arrays";
-
+                    return "ඇල්ඩිහයිඩ හා කීටෝන";
+                case 8:
+                    return "කාබොක්සිලික් අම්ල";
+                case 9:
+                    return "අම්ල ක්ලෝරයිඩ";
+                case 10:
+                    return "ඇමීන";
+                case 11:
+                    return "ඇමයිඩ";
+                case 12:
+                    return "alkena";
 
             }
             return null;
