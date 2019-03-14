@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "750621844695",
+    "firebase_url": "https://organicsinhalen.firebaseio.com",
+    "project_id": "organicsinhalen",
+    "storage_bucket": "organicsinhalen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750621844695:android:418f6af0530d2060",
+        "android_client_info": {
+          "package_name": "com.blogspot.gihanmora.OrganicSinhalen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750621844695-i2p8uu3ppp7on6dhmrqkgbnoqkgq8tuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyXudwJOnJ6gzQxDKvRonWKNdSvXXq19s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
