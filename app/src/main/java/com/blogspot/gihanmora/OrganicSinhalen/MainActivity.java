@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+        mViewPager = (ViewPager) findViewById(R.id.container);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         navigationView =(NavigationView)findViewById(R.id.nevigationView);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener(){
@@ -106,6 +106,38 @@ public class MainActivity extends AppCompatActivity {
 
                         mDrawerLayout.closeDrawers();
                         break;
+                    case R.id.tab01:
+                        mViewPager.setCurrentItem(1);
+                        mDrawerLayout.closeDrawers();
+                        break;
+                    case R.id.tab02:
+                        mViewPager.setCurrentItem(4);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab03:
+                        mViewPager.setCurrentItem(5);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab04:
+                        mViewPager.setCurrentItem(6);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab05:
+                        mViewPager.setCurrentItem(7);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab06:
+                        mViewPager.setCurrentItem(8);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab07:
+                        mViewPager.setCurrentItem(9);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab08:
+                        mViewPager.setCurrentItem(10);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab09:
+                        mViewPager.setCurrentItem(11);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab10:
+                        mViewPager.setCurrentItem(12);
+                        mDrawerLayout.closeDrawers();break;
+
                     case R.id.tab1:
 
                         Intent iii=new Intent(MainActivity.this,Main2Activity.class);
@@ -176,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(R.id.container);
+
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
@@ -370,7 +402,7 @@ public class MainActivity extends AppCompatActivity {
                 case 11:
                     return "ඇමයිඩ";
                 case 12:
-                    return "alkena";
+                    return "ඇල්කේන";
 
             }
             return null;

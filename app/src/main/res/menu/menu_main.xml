@@ -9,6 +9,79 @@
         android:title="Home"
         app:showAsAction="never" />
     <item
+        android:id="@+id/tab01"
+        android:actionLayout="@id/tab01"
+        android:orderInCategory="100"
+        android:title="ඇල්කේන"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab02"
+        android:actionLayout="@id/tab02"
+        android:orderInCategory="100"
+        android:title="ඇල්කීන"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab03"
+        android:actionLayout="@id/tab03"
+        android:orderInCategory="100"
+        android:title="ඇල්කයින"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/tab04"
+        android:actionLayout="@id/tab04"
+        android:orderInCategory="100"
+        android:title="ඇල්කිල් හේලයිඩ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab05"
+        android:actionLayout="@id/tab05"
+        android:orderInCategory="100"
+        android:title="බෙන්සීන්"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab06"
+        android:actionLayout="@id/tab06"
+        android:orderInCategory="100"
+        android:title="ඇල්කොහොල"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab07"
+        android:actionLayout="@id/tab07"
+        android:orderInCategory="100"
+        android:title="ෆීනෝල"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab08"
+        android:actionLayout="@id/tab08"
+        android:orderInCategory="100"
+        android:title="ඇල්ඩිහයිඩ හා කීටෝන"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab09"
+        android:actionLayout="@id/tab09"
+        android:orderInCategory="100"
+        android:title="කාබොක්සිලික් අම්ල"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab10"
+        android:actionLayout="@id/tab10"
+        android:orderInCategory="100"
+        android:title="අම්ල ක්ලෝරයිඩ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab11"
+        android:actionLayout="@id/tab11"
+        android:orderInCategory="100"
+        android:title="ඇමීන"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab12"
+        android:actionLayout="@id/tab12"
+        android:orderInCategory="100"
+        android:title="ඇමයිඩ"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/tab1"
         android:actionLayout="@id/tab0"
         android:orderInCategory="100"
