@@ -30,14 +30,14 @@
 
             <com.google.android.gms.ads.AdView
                 android:id="@+id/adView"
-                ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-5202253201958912/4675820840"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 android:layout_alignParentTop="false"
+                android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-apca-app-pub-5202253201958912/1414541648p-pca-app-pub-5202253201958912/5643325022ub-5202253201958912/5643325022">
 
             </com.google.android.gms.ads.AdView>
 

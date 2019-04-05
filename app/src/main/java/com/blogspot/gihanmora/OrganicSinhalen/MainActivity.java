@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         MobileAds.initialize(this.getApplicationContext(),"ca-app-pub-5202253201958912~4166368789");
-        mAdView = (AdView)findViewById(R.id.adView);
+
         AdRequest adRequest = new AdRequest.Builder().build();
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-5202253201958912/2282186946");
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d("TAG", "The interstitial wasn't loaded yet.");
         }
 
-        mAdView.loadAd(adRequest);
+        
         //sv= (HorizontalScrollView)findViewById(R.id.sv);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         AppBarLayout app=(AppBarLayout)findViewById(R.id.appbar);
@@ -111,33 +111,41 @@ public class MainActivity extends AppCompatActivity {
                         mDrawerLayout.closeDrawers();
                         break;
                     case R.id.tab02:
-                        mViewPager.setCurrentItem(4);
+                        mViewPager.setCurrentItem(2);
                         mDrawerLayout.closeDrawers();break;
                     case R.id.tab03:
-                        mViewPager.setCurrentItem(5);
+                        mViewPager.setCurrentItem(3);
                         mDrawerLayout.closeDrawers();break;
                     case R.id.tab04:
-                        mViewPager.setCurrentItem(6);
+                        mViewPager.setCurrentItem(4);
                         mDrawerLayout.closeDrawers();break;
                     case R.id.tab05:
-                        mViewPager.setCurrentItem(7);
+                        mViewPager.setCurrentItem(5);
                         mDrawerLayout.closeDrawers();break;
                     case R.id.tab06:
-                        mViewPager.setCurrentItem(8);
+                        mViewPager.setCurrentItem(6);
                         mDrawerLayout.closeDrawers();break;
                     case R.id.tab07:
-                        mViewPager.setCurrentItem(9);
+                        mViewPager.setCurrentItem(7);
                         mDrawerLayout.closeDrawers();break;
                     case R.id.tab08:
-                        mViewPager.setCurrentItem(10);
+                        mViewPager.setCurrentItem(8);
                         mDrawerLayout.closeDrawers();break;
                     case R.id.tab09:
-                        mViewPager.setCurrentItem(11);
+                        mViewPager.setCurrentItem(9);
                         mDrawerLayout.closeDrawers();break;
                     case R.id.tab10:
+                        mViewPager.setCurrentItem(10);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab11:
+                        mViewPager.setCurrentItem(11);
+                        mDrawerLayout.closeDrawers();break;
+                    case R.id.tab12:
                         mViewPager.setCurrentItem(12);
                         mDrawerLayout.closeDrawers();break;
-
+                    case R.id.tab13:
+                        mViewPager.setCurrentItem(13);
+                        mDrawerLayout.closeDrawers();break;
                     case R.id.tab1:
 
                         Intent iii=new Intent(MainActivity.this,Main2Activity.class);
@@ -161,8 +169,8 @@ public class MainActivity extends AppCompatActivity {
                             Intent i = new Intent(Intent.ACTION_SEND);
                             i.setType("text/plain");
                             i.putExtra(Intent.EXTRA_SUBJECT, "My application name");
-                            String sAux = "\nC++ සිංහලෙන්\nC++  භාෂාව මුල සිට සරළව සිංහල භාශාවෙන්ම අධ්\u200Dයනය කිරීමට දැන්ම Download කරගන්න...\nDownload>>\n";
-                            sAux = sAux + " https://play.google.com/store/apps/details?id=com.blogspot.gihanmora.cppsinhalen\n\n";
+                            String sAux = "\nOrganic සිංහලෙන්\nකාබනික පරිවර්තනතන නිවැරදිව හා පහසුවෙන් කිරීම්ට හොඳම මඟ පෙන්වීම....\nDownload>>\n";
+                            sAux = sAux + " https://play.google.com/store/apps/details?id=com.blogspot.gihanmora.OrganicSinhalen\n\n";
                             i.putExtra(Intent.EXTRA_TEXT, sAux);
                             startActivity(Intent.createChooser(i, "Choose One"));
                         } catch(Exception e) {
@@ -266,9 +274,9 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab2 tb2 =new Tab2();
+                    Tab13 tb13 =new Tab13();
 
-                    return tb2;
+                    return tb13;
                 case 2:
                     if (mInterstitialAd.isLoaded()) {
                         mInterstitialAd.show();
@@ -276,9 +284,9 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
 
-                    Tab3 tb3 =new Tab3();
+                    Tab2 tb2 =new Tab2();
 
-                    return tb3;
+                    return tb2;
                 case 3:
                     if (mInterstitialAd.isLoaded()) {
                         mInterstitialAd.show();
@@ -286,15 +294,15 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
 
-                    Tab4 tb4 =new Tab4();
-                    return tb4;
+                    Tab3 tb3 =new Tab3();
+                    return tb3;
                 case 4:
                     if (mInterstitialAd.isLoaded()) {
                         mInterstitialAd.show();
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab5 tb5 =new Tab5();
+                    Tab4 tb5 =new Tab4();
                     return tb5;
                 case 5:
                     if (mInterstitialAd.isLoaded()) {
@@ -303,7 +311,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
 
-                    Tab6 tb6 =new Tab6();
+                    Tab5 tb6 =new Tab5();
                     return tb6;
                 case 6:
                     if (mInterstitialAd.isLoaded()) {
@@ -311,7 +319,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab7 tb7 =new Tab7();
+                    Tab6 tb7 =new Tab6();
                     return tb7;
                 case 7:
                     if (mInterstitialAd.isLoaded()) {
@@ -319,7 +327,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab8 tb8 =new Tab8();
+                    Tab7 tb8 =new Tab7();
                     return tb8;
                 case 8:
                     if (mInterstitialAd.isLoaded()) {
@@ -327,7 +335,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab9 tb9 =new Tab9();
+                    Tab8 tb9 =new Tab8();
                     return tb9;
                 case 9:
                     if (mInterstitialAd.isLoaded()) {
@@ -335,7 +343,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab10 tb10 =new Tab10();
+                    Tab9 tb10 =new Tab9();
                     return tb10;
                 case 10:
                     if (mInterstitialAd.isLoaded()) {
@@ -343,7 +351,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab11 tb11 =new Tab11();
+                    Tab10 tb11 =new Tab10();
                     return tb11;
                 case 11:
                     if (mInterstitialAd.isLoaded()) {
@@ -351,7 +359,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab12 tb12 =new Tab12();
+                    Tab11 tb12 =new Tab11();
                     return tb12;
                 case 12:
                     if (mInterstitialAd.isLoaded()) {
@@ -359,9 +367,16 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab13 tb13 =new Tab13();
-                    return tb13;
-
+                    Tab12 tb122 =new Tab12();
+                    return tb122;
+                case 13:
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                    } else {
+                        Log.d("TAG", "The interstitial wasn't loaded yet.");
+                    }
+                    Tab14 tb113 =new Tab14();
+                    return tb113;
                 default:
                     return null;
 
@@ -371,7 +386,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 13;
+            return 14;
         }
 
         @Override
@@ -380,29 +395,32 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     return "මුල් පිටුව";
                 case 1:
-                    return "ඇල්කීන";
-                case 2:
-                    return "ඇල්කයින";
-                case 3:
-                    return "ඇල්කිල් හේලයිඩ";
-                case 4:
-                    return "බෙන්සීන්";
-                case 5:
-                    return "ඇල්කොහොල";
-                case 6:
-                    return "ෆීනෝල";
-                case 7:
-                    return "ඇල්ඩිහයිඩ හා කීටෝන";
-                case 8:
-                    return "කාබොක්සිලික් අම්ල";
-                case 9:
-                    return "අම්ල ක්ලෝරයිඩ";
-                case 10:
-                    return "ඇමීන";
-                case 11:
-                    return "ඇමයිඩ";
-                case 12:
                     return "ඇල්කේන";
+                case 2:
+                    return "ඇල්කීන";
+                case 3:
+                    return "ඇල්කයින";
+                case 4:
+                    return "ඇල්කිල් හේලයිඩ";
+                case 5:
+                    return "බෙන්සීන්";
+                case 6:
+                    return "ඇල්කොහොල";
+                case 7:
+                    return "ෆීනෝල";
+                case 8:
+                    return "ඇල්ඩිහයිඩ හා කීටෝන";
+                case 9:
+                    return "කාබොක්සිලික් අම්ල";
+                case 10:
+                    return "අම්ල ක්ලෝරයිඩ";
+                case 11:
+                    return "ඇමීන";
+                case 12:
+                    return "ඇනිලීන්";
+                case 13:
+                    return "ඇමයිඩ";
+
 
             }
             return null;

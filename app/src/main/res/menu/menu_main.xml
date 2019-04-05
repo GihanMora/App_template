@@ -79,6 +79,12 @@
         android:id="@+id/tab12"
         android:actionLayout="@id/tab12"
         android:orderInCategory="100"
+        android:title="ඇනිලීන්"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab13"
+        android:actionLayout="@id/tab12"
+        android:orderInCategory="100"
         android:title="ඇමයිඩ"
         app:showAsAction="never" />
     <item

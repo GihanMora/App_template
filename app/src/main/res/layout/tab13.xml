@@ -157,6 +157,23 @@
                     tools:layout_width="10dp" />
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <Button
+                    android:id="@+id/rconh2"
+                    android:layout_width="0dip"
+                    android:layout_height="120dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rconh2"
+                    tools:layout_width="10dp" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>

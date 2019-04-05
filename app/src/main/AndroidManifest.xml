@@ -5,13 +5,13 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/icccon"
-        android:label="Organic Sinhalen"
+        android:label="Organic සිංහලෙන්"
         android:roundIcon="@drawable/icccon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="Organic සිංහලෙන්"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

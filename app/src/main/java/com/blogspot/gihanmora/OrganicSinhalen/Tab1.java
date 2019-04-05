@@ -31,6 +31,7 @@ public class Tab1  extends Fragment  {
         Button rcocl = (Button)rootView.findViewById(R.id.rcocl);
         Button fenh2 = (Button)rootView.findViewById(R.id.fenh2);
         Button rnh2 = (Button)rootView.findViewById(R.id.rnh2);
+        Button rconh2 = (Button)rootView.findViewById(R.id.rconh2);
         rh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { pager.setCurrentItem(1);
@@ -56,29 +57,34 @@ public class Tab1  extends Fragment  {
             public void onClick(View v) { pager.setCurrentItem(5);
             }
         });
-        fen.setOnClickListener(new View.OnClickListener() {
+        roh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { pager.setCurrentItem(6);
             }
         });
-        rcor.setOnClickListener(new View.OnClickListener() {
+        fen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { pager.setCurrentItem(7);
             }
         });
-        rcooh.setOnClickListener(new View.OnClickListener() {
+        rcor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { pager.setCurrentItem(8);
             }
         });
-        rcocl.setOnClickListener(new View.OnClickListener() {
+        rcooh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { pager.setCurrentItem(9);
             }
         });
-        fenh2.setOnClickListener(new View.OnClickListener() {
+        rcocl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { pager.setCurrentItem(10);
+            }
+        });
+        fenh2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { pager.setCurrentItem(12);
             }
         });
         rnh2.setOnClickListener(new View.OnClickListener() {
@@ -86,7 +92,11 @@ public class Tab1  extends Fragment  {
             public void onClick(View v) { pager.setCurrentItem(11);
             }
         });
-
+        rconh2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { pager.setCurrentItem(13);
+            }
+        });
 
 
 

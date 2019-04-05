@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "750621844695-gq59glngc5to6cvehfstk79v21v3ibv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.gihanmora.OrganicSinhalen",
+            "certificate_hash": "60f84f847fc116d1b427c5c4f8768fb63050f859"
+          }
+        },
+        {
           "client_id": "750621844695-i2p8uu3ppp7on6dhmrqkgbnoqkgq8tuh.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750621844695-i2p8uu3ppp7on6dhmrqkgbnoqkgq8tuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

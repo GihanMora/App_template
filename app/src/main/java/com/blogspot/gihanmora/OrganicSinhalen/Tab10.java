@@ -6,17 +6,29 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 /**
  * Created by Gihan bc on 8/18/2017.
  */
 
 public class Tab10 extends Fragment {
 
-
+    private AdView mAdView41,mAdView42,mAdView43,mAdView44,mAdView45,mAdView46;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tab10, container, false);
+        mAdView43 = (AdView)rootView.findViewById(R.id.adView101);
+        mAdView42 = (AdView)rootView.findViewById(R.id.adView102);
+        mAdView41 = (AdView)rootView.findViewById(R.id.adView103);
+
+
+
+        mAdView43.loadAd(new AdRequest.Builder().build());
+        mAdView42.loadAd(new AdRequest.Builder().build());
+        mAdView41.loadAd(new AdRequest.Builder().build());
 
 
 
