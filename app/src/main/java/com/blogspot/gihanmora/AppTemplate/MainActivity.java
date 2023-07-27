@@ -1,4 +1,4 @@
-package com.blogspot.gihanmora.OrganicSinhalen;
+package com.blogspot.gihanmora.AppTemplate;
 
 import android.content.Intent;
 import android.support.design.widget.AppBarLayout;
@@ -21,7 +21,9 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import android.widget.HorizontalScrollView;
+import android.widget.Toast;
 
+import com.blogspot.gihanmora.AppTemplate.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     HorizontalScrollView sv;
     private AdView mAdView;
     public static InterstitialAd mInterstitialAd;
+    private long pressedTime;
 
     /**
      * The {@link ViewPager} that will host the section contents.
@@ -143,9 +146,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.tab12:
                         mViewPager.setCurrentItem(12);
                         mDrawerLayout.closeDrawers();break;
-                    case R.id.tab13:
-                        mViewPager.setCurrentItem(13);
-                        mDrawerLayout.closeDrawers();break;
+//                    case R.id.tab13:
+//                        mViewPager.setCurrentItem(13);
+//                        mDrawerLayout.closeDrawers();break;
                     case R.id.tab1:
 
                         Intent iii=new Intent(MainActivity.this,Main2Activity.class);
@@ -242,6 +245,27 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+//    public void onBackPressed() {
+//
+//        if (pressedTime + 2000 > System.currentTimeMillis()) {
+//            super.onBackPressed();
+//            finish();
+//        } else {
+//            Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT).show();
+//        }
+//        pressedTime = System.currentTimeMillis();
+//    }
+    public void onBackPressed() {
+
+        if (mViewPager.getCurrentItem() != 0) {
+            mViewPager.setCurrentItem(0,false);
+        }else{
+            finish();
+        }
+
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -265,7 +289,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab1 tb1 =new Tab1();
+                    Home tb1 =new Home();
 
                     return tb1;
                 case 1:
@@ -274,7 +298,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab13 tb13 =new Tab13();
+                    Tab1 tb13 =new Tab1();
 
                     return tb13;
                 case 2:
@@ -375,7 +399,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Log.d("TAG", "The interstitial wasn't loaded yet.");
                     }
-                    Tab14 tb113 =new Tab14();
+                    Tab1 tb113 =new Tab1();
                     return tb113;
                 default:
                     return null;
@@ -385,41 +409,40 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 14;
+            // Show 13 total pages. if remove a tab make sure to change this.
+            return 13;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "මුල් පිටුව";
+                    return "Main Menu";
                 case 1:
-                    return "ඇල්කේන";
+                    return "Tab1";
                 case 2:
-                    return "ඇල්කීන";
+                    return "Tab2";
                 case 3:
-                    return "ඇල්කයින";
+                    return "Tab3";
                 case 4:
-                    return "ඇල්කිල් හේලයිඩ";
+                    return "Tab4";
                 case 5:
-                    return "බෙන්සීන්";
+                    return "Tab5";
                 case 6:
-                    return "ඇල්කොහොල";
+                    return "Tab6";
                 case 7:
-                    return "ෆීනෝල";
+                    return "Tab7";
                 case 8:
-                    return "ඇල්ඩිහයිඩ හා කීටෝන";
+                    return "Tab8";
                 case 9:
-                    return "කාබොක්සිලික් අම්ල";
+                    return "Tab9";
                 case 10:
-                    return "අම්ල ක්ලෝරයිඩ";
+                    return "Tab10";
                 case 11:
-                    return "ඇමීන";
+                    return "Tab11";
                 case 12:
-                    return "ඇනිලීන්";
-                case 13:
-                    return "ඇමයිඩ";
+                    return "Tab12";
+
 
 
             }

@@ -4,7 +4,7 @@
     tools:context="com.blogspot.gihanmora.cppsinhalen.MainActivity">
     <item
         android:id="@+id/tab0"
-        android:actionLayout="@id/tab0"
+        android:actionLayout="@id/home"
         android:orderInCategory="100"
         android:title="Home"
         app:showAsAction="never" />
@@ -12,84 +12,79 @@
         android:id="@+id/tab01"
         android:actionLayout="@id/tab01"
         android:orderInCategory="100"
-        android:title="ඇල්කේන"
+        android:title="Tab1"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab02"
         android:actionLayout="@id/tab02"
         android:orderInCategory="100"
-        android:title="ඇල්කීන"
+        android:title="Tab2"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab03"
         android:actionLayout="@id/tab03"
         android:orderInCategory="100"
-        android:title="ඇල්කයින"
+        android:title="Tab3"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/tab04"
         android:actionLayout="@id/tab04"
         android:orderInCategory="100"
-        android:title="ඇල්කිල් හේලයිඩ"
+        android:title="Tab4"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab05"
         android:actionLayout="@id/tab05"
         android:orderInCategory="100"
-        android:title="බෙන්සීන්"
+        android:title="Tab5"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab06"
         android:actionLayout="@id/tab06"
         android:orderInCategory="100"
-        android:title="ඇල්කොහොල"
+        android:title="Tab6"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab07"
         android:actionLayout="@id/tab07"
         android:orderInCategory="100"
-        android:title="ෆීනෝල"
+        android:title="Tab7"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab08"
         android:actionLayout="@id/tab08"
         android:orderInCategory="100"
-        android:title="ඇල්ඩිහයිඩ හා කීටෝන"
+        android:title="Tab8"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab09"
         android:actionLayout="@id/tab09"
         android:orderInCategory="100"
-        android:title="කාබොක්සිලික් අම්ල"
+        android:title="Tab9"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab10"
         android:actionLayout="@id/tab10"
         android:orderInCategory="100"
-        android:title="අම්ල ක්ලෝරයිඩ"
+        android:title="Tab10"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab11"
         android:actionLayout="@id/tab11"
         android:orderInCategory="100"
-        android:title="ඇමීන"
+        android:title="Tab11"
         app:showAsAction="never" />
     <item
         android:id="@+id/tab12"
         android:actionLayout="@id/tab12"
         android:orderInCategory="100"
-        android:title="ඇනිලීන්"
+        android:title="Tab12"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/tab13"
-        android:actionLayout="@id/tab12"
-        android:orderInCategory="100"
-        android:title="ඇමයිඩ"
-        app:showAsAction="never" />
+
     <item
         android:id="@+id/tab1"
-        android:actionLayout="@id/tab0"
+        android:actionLayout="@id/tab1"
         android:orderInCategory="100"
         android:title="What's next!"
         app:showAsAction="never" />

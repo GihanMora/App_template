@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OrganicSinhalen.iml" filepath="$PROJECT_DIR$/OrganicSinhalen.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/App_template.iml" filepath="$PROJECT_DIR$/.idea/modules/App_template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_template.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_template.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_template.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_template.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_template.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_template.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App_template.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App_template.app.unitTest.iml" />
     </modules>
   </component>
 </project>

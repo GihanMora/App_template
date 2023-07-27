@@ -1,4 +1,4 @@
-package com.blogspot.gihanmora.OrganicSinhalen;
+package com.blogspot.gihanmora.AppTemplate;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

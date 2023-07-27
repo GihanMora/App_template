@@ -1,4 +1,4 @@
-package com.blogspot.gihanmora.OrganicSinhalen;
+package com.blogspot.gihanmora.AppTemplate;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,16 +8,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.blogspot.gihanmora.AppTemplate.R;
+
 /**
  * Created by Gihan bc on 8/18/2017.
  */
 
-public class Tab1  extends Fragment  {
+public class Home extends Fragment  {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.tab13, container, false);
+        View rootView = inflater.inflate(R.layout.home, container, false);
         final ViewPager pager=   (ViewPager)getActivity().findViewById(R.id.container);
         Button rh = (Button)rootView.findViewById(R.id.rh);
         Button rc2cr = (Button)rootView.findViewById(R.id.rc2cr);

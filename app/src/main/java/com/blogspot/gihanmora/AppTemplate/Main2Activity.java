@@ -1,4 +1,4 @@
-package com.blogspot.gihanmora.OrganicSinhalen;
+package com.blogspot.gihanmora.AppTemplate;
 
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+
+import com.blogspot.gihanmora.AppTemplate.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -41,7 +43,7 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(MenuItem item){
                 switch (item.getItemId()){
-                    case R.id.tab0:
+                    case R.id.tab01:
                         Intent ii=new Intent(Main2Activity.this,MainActivity.class);
                         startActivity(ii);
 

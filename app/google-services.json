@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:750621844695:android:418f6af0530d2060",
         "android_client_info": {
-          "package_name": "com.blogspot.gihanmora.OrganicSinhalen"
+          "package_name": "com.blogspot.gihanmora.AppTemplate"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "750621844695-gq59glngc5to6cvehfstk79v21v3ibv0.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.blogspot.gihanmora.OrganicSinhalen",
+            "package_name": "com.blogspot.gihanmora.AppTemplate",
             "certificate_hash": "60f84f847fc116d1b427c5c4f8768fb63050f859"
           }
         },

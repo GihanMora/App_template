@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.blogspot.gihanmora.OrganicSinhalen">
+    package="com.blogspot.gihanmora.AppTemplate">
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/icccon"
-        android:label="Organic සිංහලෙන්"
+        android:label="App template"
         android:roundIcon="@drawable/icccon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="Organic සිංහලෙන්"
+            android:name="com.blogspot.gihanmora.AppTemplate.MainActivity"
+            android:label="App template"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".Main3Activity"/>
+        <activity android:name="com.blogspot.gihanmora.AppTemplate.Main2Activity" />
+        <activity android:name="com.blogspot.gihanmora.AppTemplate.Main3Activity"/>
     </application>
 
 </manifest>

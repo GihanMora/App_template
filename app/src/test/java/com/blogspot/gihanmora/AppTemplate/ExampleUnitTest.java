@@ -1,4 +1,4 @@
-package com.blogspot.gihanmora.OrganicSinhalen;
+package com.blogspot.gihanmora.AppTemplate;
 
 import org.junit.Test;
 

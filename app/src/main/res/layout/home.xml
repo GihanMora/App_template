@@ -20,6 +20,12 @@
             android:orientation="vertical"
             android:padding="5dp">
 
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="home" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -31,7 +37,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/rh"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
 
                 <Button
@@ -39,7 +45,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/rc2cr"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
 
             </LinearLayout>
@@ -54,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/rc3cr"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
 
                 <Button
@@ -77,7 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/benzene"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
 
                 <Button
@@ -85,7 +91,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/roh"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
             </LinearLayout>
 
@@ -99,7 +105,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/fenol"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
 
                 <Button
@@ -107,7 +113,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/rc0r"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
             </LinearLayout>
 
@@ -122,7 +128,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/rcooh"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
 
                 <Button
@@ -130,7 +136,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/rcocl"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
             </LinearLayout>
 
@@ -145,7 +151,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/fenh2"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
 
                 <Button
@@ -153,7 +159,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:background="@drawable/rnh2"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
             </LinearLayout>
 
@@ -169,7 +175,7 @@
                     android:layout_width="0dip"
                     android:layout_height="120dp"
                     android:layout_weight="0.5"
-                    android:background="@drawable/rconh2"
+                    android:background="@drawable/rx"
                     tools:layout_width="10dp" />
 
             </LinearLayout>
@@ -183,4 +189,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />
-</LinearLayout>
+
+    </LinearLayout>
