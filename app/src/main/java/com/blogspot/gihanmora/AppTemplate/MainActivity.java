@@ -104,9 +104,11 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem item){
                 switch (item.getItemId()){
                     case R.id.tab0:
-                        Intent ii=new Intent(MainActivity.this,MainActivity.class);
-                        startActivity(ii);
-
+//                        Intent ii=new Intent(MainActivity.this,MainActivity.class);
+//                        startActivity(ii);
+//
+//                        mDrawerLayout.closeDrawers();
+                        mViewPager.setCurrentItem(0);
                         mDrawerLayout.closeDrawers();
                         break;
                     case R.id.tab01:
